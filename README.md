@@ -1,4 +1,4 @@
-= 101GB Zlib Zipbomb Repo
+==101GB Zlib Zipbomb Repo
 
 This repo, while only occupying around 224K on disk for servers/mirror repos, expands to around 101GB when cloned normally, as the objects are all 99MB zero filled files, all duplicates. These files, being duplicate, are deduped by git, and then zlib compressed, making the repo look innocuous until cloned.
 
